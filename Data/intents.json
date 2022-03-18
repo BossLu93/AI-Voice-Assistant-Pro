@@ -1,0 +1,101 @@
+
+{
+  "intents": [
+  {
+    "tag": "joke",
+    "patterns": ["Tell me a joke", "Tell joke", "tell a funny joke"]
+  },
+  {
+    "tag": "news",
+    "patterns": ["Tell me news headlines", "what are today's top news", "Tell news", "What are today's news headlines"]
+  },
+  {
+    "tag": "ip",
+    "patterns": ["what is my ip address", "get my ip address", "Find ip address", "Tell ip address"]
+  },
+  {
+    "tag": "movies",
+    "patterns": ["Find trending movies", "List some trending movies", "list some popular movies", "get some popular movies", "tell some popular movies"]
+  },
+  {
+    "tag": "tv_series",
+    "patterns": ["Find trending tv web series", "List some trending tv web series", "list some popular tv web series", "get some popular tv web series", "tell me some popular web tv series"]
+  },
+  {
+    "tag": "weather",
+    "patterns": ["What's weather the today", "Get weather report", "What's the weather forecast", "Get weather forecast", "Fetch the weather report", "Get today's weather details", "Find weather detail's", "Get weather information", "Fetch weather information", "Fetch weather forecast"]
+  },
+  {
+    "tag": "internet_speedtest",
+    "patterns": ["Get my internet speed", "Check internet speed", "what is my internet speed"]
+  },
+  {
+    "tag": "system_stats",
+    "patterns": ["Fetch system stats", "Get system resource consumption", "Get system stats", "retrieve system stats"]
+  },
+  {
+    "tag": "image_generation",
+    "patterns": ["Generate image", "Create image", "Generate image from text"]
+  },
+  {
+    "tag": "system_info",
+    "patterns": ["fetch system information", "get system info", "fetch system specifications", "get system specs"]
+  },
+  {
+    "tag": "email",
+    "patterns": ["Send an email", "send an email", "send email"]
+  },
+  {
+    "tag": "select_text",
+    "patterns": ["select the text", "select all text", "select text", "select"]
+  },
+  {
+    "tag": "copy_text",
+    "patterns": ["copy text", "copy the text", "copy the text", "copy"]
+  },
+  {
+    "tag": "paste_text",
+    "patterns": ["paste text", "paste the text", "paste"]
+  },
+  {
+    "tag": "delete_text",
+    "patterns": ["delete text", "delete", "delete the text"]
+  },
+  {
+    "tag": "save_file",
+    "patterns": ["save file", "save", "save the file", "save this file"]
+  },
+  {
+    "tag": "new_file",
+    "patterns": ["create new file", "open new file"]
+  }, 
+  {
+    "tag": "switch_tab",
+    "patterns": ["switch tab", "switch the tab", "switch tab"]
+  },
+  {
+    "tag": "close_tab",
+    "patterns": ["close tab", "close the tab", "close tab"]
+  },
+  {
+    "tag": "new_tab",
+    "patterns": ["open new tab", "open a new tab", "new tab", "create new tab"]
+  },
+  {
+    "tag": "close_window",
+    "patterns": ["close window", "close the window", "close window"]
+  },
+  {
+    "tag": "switch_window",
+    "patterns": ["switch window", "switch the window", "switch window"]
+  },
+  {
+    "tag": "minimize_window",
+    "patterns": ["minimize window", "minimize window", "minimize the window"]
+  },
+  {
+    "tag": "maximize_window",
+    "patterns": ["maximize window", "maximize window", "maximize the window"]
+  },
+  {
+    "tag": "screenshot",
