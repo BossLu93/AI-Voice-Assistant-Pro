@@ -6,4 +6,7 @@ import re
 import requests
 from wolframalpha import Client
 
-load
+load_dotenv(dotenv_path='..\\Data\\.env')
+
+NEWS = os.getenv('NEWS_API')
+WOLFRAMALPHA = os.getenv('WOLFRAMALPHA_AP
