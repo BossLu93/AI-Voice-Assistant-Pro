@@ -12,4 +12,9 @@ NEWS = os.getenv('NEWS_API')
 WOLFRAMALPHA = os.getenv('WOLFRAMALPHA_API')
 OPENWEATHERMAP = os.getenv('OPENWEATHERMAP_API')
 TMDB = os.getenv('TMDB_API')
-news = NewsApiClient(api_key=NEW
+news = NewsApiClient(api_key=NEWS)
+
+def get_ip(_return=False):
+    try:
+        response = requests.get(f'http://ip-api.com/json/').json()
+    
