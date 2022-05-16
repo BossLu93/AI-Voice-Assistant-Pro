@@ -17,4 +17,7 @@ news = NewsApiClient(api_key=NEWS)
 def get_ip(_return=False):
     try:
         response = requests.get(f'http://ip-api.com/json/').json()
-    
+        if _return:
+            return response
+        else:
+            return f'Your IP address is {respons
