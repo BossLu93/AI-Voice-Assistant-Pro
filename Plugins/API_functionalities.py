@@ -20,4 +20,7 @@ def get_ip(_return=False):
         if _return:
             return response
         else:
-            return f'Your IP address is {respons
+            return f'Your IP address is {response["query"]}'
+    except KeyboardInterrupt:
+        return None
+    except requests.exceptions.RequestExce
