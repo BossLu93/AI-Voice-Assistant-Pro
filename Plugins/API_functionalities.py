@@ -23,4 +23,9 @@ def get_ip(_return=False):
             return f'Your IP address is {response["query"]}'
     except KeyboardInterrupt:
         return None
-    except requests.exceptions.RequestExce
+    except requests.exceptions.RequestException:
+        return None
+
+def get_joke():
+    try:
+        joke = requests.get('https://v2.joke
