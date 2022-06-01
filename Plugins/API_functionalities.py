@@ -28,4 +28,8 @@ def get_ip(_return=False):
 
 def get_joke():
     try:
-        joke = requests.get('https://v2.joke
+        joke = requests.get('https://v2.jokeapi.dev/joke/Any?format=txt').text
+        return joke
+    except KeyboardInterrupt:
+        return None
+    except re
