@@ -32,4 +32,9 @@ def get_joke():
         return joke
     except KeyboardInterrupt:
         return None
-    except re
+    except requests.exceptions.RequestException:
+        return None
+
+def get_news():
+    try:
+        top_news = ""
