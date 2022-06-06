@@ -48,3 +48,6 @@ def get_news():
         return None
 
 def get_weather(city=''):
+    try:
+        if city:
+            response = requests.get(f'https://api.openweathermap.org/data/2.5/weath
