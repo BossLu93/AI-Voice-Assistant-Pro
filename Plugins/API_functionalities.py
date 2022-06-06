@@ -40,4 +40,7 @@ def get_news():
         top_news = ""
         top_headlines = news.get_top_headlines(language="en", country="in")
         for i in range(10):
-             top_news += re.sub(r'[|-] [A-Za-z0-9 |:.]*', '', top_headlines['articles'][i][
+             top_news += re.sub(r'[|-] [A-Za-z0-9 |:.]*', '', top_headlines['articles'][i]['title']).replace("’", "'") + '\n'
+        return top_news
+    except KeyboardInterrupt:
+   
