@@ -38,3 +38,6 @@ def get_joke():
 def get_news():
     try:
         top_news = ""
+        top_headlines = news.get_top_headlines(language="en", country="in")
+        for i in range(10):
+   
