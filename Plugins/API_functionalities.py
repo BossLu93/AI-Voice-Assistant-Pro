@@ -43,4 +43,8 @@ def get_news():
              top_news += re.sub(r'[|-] [A-Za-z0-9 |:.]*', '', top_headlines['articles'][i]['title']).replace("’", "'") + '\n'
         return top_news
     except KeyboardInterrupt:
-   
+        return None
+    except requests.exceptions.RequestException:
+        return None
+
+def get_weather(city=''):
