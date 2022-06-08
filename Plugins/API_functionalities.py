@@ -50,4 +50,6 @@ def get_news():
 def get_weather(city=''):
     try:
         if city:
-            response = requests.get(f'https://api.openweathermap.org/data/2.5/weath
+            response = requests.get(f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid={OPENWEATHERMAP}&units=metric').json()
+        else:
+            response = requests.g
