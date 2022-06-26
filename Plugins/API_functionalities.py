@@ -53,4 +53,5 @@ def get_weather(city=''):
             response = requests.get(f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid={OPENWEATHERMAP}&units=metric').json()
         else:
             response = requests.get(f'https://api.openweathermap.org/data/2.5/weather?q={get_ip(True)["city"]}&appid={OPENWEATHERMAP}&units=metric').json()
-        weather = f'It\'s {response["main"]["temp"]}° Celsius 
+        weather = f'It\'s {response["main"]["temp"]}° Celsius and {response["weather"][0]["main"]}\n' \
+               f'But feels like {response["main"]["feels_lik
