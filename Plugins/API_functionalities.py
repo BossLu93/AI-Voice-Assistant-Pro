@@ -55,4 +55,6 @@ def get_weather(city=''):
             response = requests.get(f'https://api.openweathermap.org/data/2.5/weather?q={get_ip(True)["city"]}&appid={OPENWEATHERMAP}&units=metric').json()
         weather = f'It\'s {response["main"]["temp"]}° Celsius and {response["weather"][0]["main"]}\n' \
                f'But feels like {response["main"]["feels_like"]}° Celsius\n' \
-               f'Wind is blowing at {round(response["wind"]["speed"] * 3.6, 2)}km
+               f'Wind is blowing at {round(response["wind"]["speed"] * 3.6, 2)}km/h\n' \
+               f'Visibility is {int(response["visibility"] / 1000)}km'
+        return weather
