@@ -61,4 +61,9 @@ def get_weather(city=''):
     except requests.exceptions.RequestException:
         return None
     except KeyboardInterrupt:
-        return N
+        return None
+
+def get_general_response(query):
+    client = Client(app_id=WOLFRAMALPHA)
+    try:
+        respo
