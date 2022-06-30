@@ -58,3 +58,7 @@ def get_weather(city=''):
                f'Wind is blowing at {round(response["wind"]["speed"] * 3.6, 2)}km/h\n' \
                f'Visibility is {int(response["visibility"] / 1000)}km'
         return weather
+    except requests.exceptions.RequestException:
+        return None
+    except KeyboardInterrupt:
+        return N
