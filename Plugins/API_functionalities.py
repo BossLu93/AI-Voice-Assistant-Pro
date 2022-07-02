@@ -66,4 +66,6 @@ def get_weather(city=''):
 def get_general_response(query):
     client = Client(app_id=WOLFRAMALPHA)
     try:
-        respo
+        response = client.query(query)
+        return next(response.results).text
+    except (StopIteration,
