@@ -68,4 +68,9 @@ def get_general_response(query):
     try:
         response = client.query(query)
         return next(response.results).text
-    except (StopIteration,
+    except (StopIteration, AttributeError) as e:
+        return None
+    except KeyboardInterrupt:
+        return None
+
+def ge
