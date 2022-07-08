@@ -73,4 +73,6 @@ def get_general_response(query):
     except KeyboardInterrupt:
         return None
 
-def ge
+def get_popular_movies():
+    try:
+        response = requests.get(f"https://api.themoviedb.org/3/movie/popular?api
