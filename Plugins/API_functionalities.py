@@ -75,4 +75,5 @@ def get_general_response(query):
 
 def get_popular_movies():
     try:
-        response = requests.get(f"https://api.themoviedb.org/3/movie/popular?api
+        response = requests.get(f"https://api.themoviedb.org/3/movie/popular?api_key={TMDB}&region=IN&sort_by=popularity.desc&"
+                                f"primary_release_year={dat
