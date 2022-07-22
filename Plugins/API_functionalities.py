@@ -79,4 +79,8 @@ def get_popular_movies():
                                 f"primary_release_year={datetime.date.today().year}").json()
     except requests.exceptions.RequestException:
         return None
-    try
+    try:
+        print()
+        for movie in response["results"]:
+            title = movie['title']
+            p
