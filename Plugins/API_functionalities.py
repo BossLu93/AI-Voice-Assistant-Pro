@@ -88,4 +88,5 @@ def get_popular_movies():
         return None
 
 def get_popular_tvseries():
-    
+    try:
+        response = requests.get(f"https://api.themoviedb.org/3/tv/popular?api_key={TMDB}&region=IN&sort_by
