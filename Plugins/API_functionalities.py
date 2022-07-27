@@ -89,4 +89,5 @@ def get_popular_movies():
 
 def get_popular_tvseries():
     try:
-        response = requests.get(f"https://api.themoviedb.org/3/tv/popular?api_key={TMDB}&region=IN&sort_by
+        response = requests.get(f"https://api.themoviedb.org/3/tv/popular?api_key={TMDB}&region=IN&sort_by=popularity.desc&"
+                                f"primary_release_year={datetime.date.today().year}
