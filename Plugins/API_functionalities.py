@@ -94,3 +94,8 @@ def get_popular_tvseries():
     except requests.exceptions.RequestException:
         return None
     try:
+        print()
+        for show in response["results"]:
+            title = show['name']
+            print(title)
+    except KeyE
