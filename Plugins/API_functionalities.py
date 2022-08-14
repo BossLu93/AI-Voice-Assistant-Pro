@@ -98,4 +98,5 @@ def get_popular_tvseries():
         for show in response["results"]:
             title = show['name']
             print(title)
-    except KeyE
+    except KeyError:
+        return None
