@@ -2,4 +2,10 @@ import webbrowser
 import re
 import wikipedia
 import speedtest
-from youtubesearchpy
+from youtubesearchpython import VideosSearch
+import websites
+
+
+def googleSearch(query):
+	if 'image' in query:
+		query
