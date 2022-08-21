@@ -14,4 +14,7 @@ def googleSearch(query):
 	query = query.replace('search', '')
 	query = query.replace('show', '')
 	query = query.replace('google', '')
-	query = query.replace('tell
+	query = query.replace('tell me about', '')
+	query = query.replace('for', '')
+	webbrowser.open("https://www.google.com/search?q=" + query)
+	return "
