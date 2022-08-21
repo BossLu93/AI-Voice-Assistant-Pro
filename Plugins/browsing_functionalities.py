@@ -11,4 +11,7 @@ def googleSearch(query):
 		query += "&tbm=isch"
 	query = query.replace('images', '')
 	query = query.replace('image', '')
-	query = query
+	query = query.replace('search', '')
+	query = query.replace('show', '')
+	query = query.replace('google', '')
+	query = query.replace('tell
