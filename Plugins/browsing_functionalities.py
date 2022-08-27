@@ -21,4 +21,8 @@ def googleSearch(query):
 
 def youtube(query):
 	query = query.replace('play', ' ')
-	query = query.replace('o
+	query = query.replace('on youtube', ' ')
+	query = query.replace('youtube', ' ')
+
+	print("Searching for videos...")
+	videosSearch = Vid
