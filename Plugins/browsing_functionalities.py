@@ -17,4 +17,8 @@ def googleSearch(query):
 	query = query.replace('tell me about', '')
 	query = query.replace('for', '')
 	webbrowser.open("https://www.google.com/search?q=" + query)
-	return "
+	return "Here you go..."
+
+def youtube(query):
+	query = query.replace('play', ' ')
+	query = query.replace('o
