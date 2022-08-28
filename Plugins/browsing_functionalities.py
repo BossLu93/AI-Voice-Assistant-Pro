@@ -29,4 +29,8 @@ def youtube(query):
 	results = videosSearch.result()['result']
 	print("Finished searching!")
 
-	webbrowser.open('http
+	webbrowser.open('https://www.youtube.com/watch?v=' + results[0]['id'])
+	return "Enjoy..."
+
+def open_specified_website(query):
+	we
