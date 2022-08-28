@@ -25,4 +25,8 @@ def youtube(query):
 	query = query.replace('youtube', ' ')
 
 	print("Searching for videos...")
-	videosSearch = Vid
+	videosSearch = VideosSearch(query, limit=1)
+	results = videosSearch.result()['result']
+	print("Finished searching!")
+
+	webbrowser.open('http
