@@ -33,4 +33,6 @@ def youtube(query):
 	return "Enjoy..."
 
 def open_specified_website(query):
-	we
+	website = query[5:] #re.search(r'[a-zA-Z]* (.*)', query)[1]
+	if website in websites.websites_dict:
+		url = websites.we
