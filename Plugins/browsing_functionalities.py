@@ -44,4 +44,5 @@ def open_specified_website(query):
 def get_speedtest():
 	try:
 		internet = speedtest.Speedtest()
-		speed = f"Your network's Download Speed is {round(internet.download() / 83
+		speed = f"Your network's Download Speed is {round(internet.download() / 8388608, 2)}MBps\n" \
+			   f"Your network's Upload Speed is {round(internet.upload() / 8388608, 2
