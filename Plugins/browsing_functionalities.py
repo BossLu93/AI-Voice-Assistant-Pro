@@ -35,4 +35,12 @@ def youtube(query):
 def open_specified_website(query):
 	website = query[5:] #re.search(r'[a-zA-Z]* (.*)', query)[1]
 	if website in websites.websites_dict:
-		url = websites.we
+		url = websites.websites_dict[website]
+		webbrowser.open(url)
+		return True
+	else:
+		return None
+
+def get_speedtest():
+	try:
+		
