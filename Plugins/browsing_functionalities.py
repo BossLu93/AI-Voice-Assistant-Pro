@@ -52,4 +52,6 @@ def get_speedtest():
 
 def tell_me_about(query):
 	try:
-		topic = query.replace("tell me about ", "") #re.search(r'([A-Za-z]* [A-Za-z]* [A-Z
+		topic = query.replace("tell me about ", "") #re.search(r'([A-Za-z]* [A-Za-z]* [A-Za-z]*)$', query)[1]
+		result = wikipedia.summary(topic, sentences=3)
+		result = re.sub(r'\[.*]', '
