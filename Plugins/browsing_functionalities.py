@@ -50,4 +50,6 @@ def get_speedtest():
 	except (speedtest.SpeedtestException, KeyboardInterrupt) as e:
 		return
 
-def tell_
+def tell_me_about(query):
+	try:
+		topic = query.replace("tell me about ", "") #re.search(r'([A-Za-z]* [A-Za-z]* [A-Z
