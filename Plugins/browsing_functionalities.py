@@ -59,4 +59,5 @@ def tell_me_about(query):
 	except (wikipedia.WikipediaException, Exception) as e:
 		return None
 
-def g
+def get_map(query):
+	webbrowser.open(f'https://www.google.com/maps/search/{query}')
