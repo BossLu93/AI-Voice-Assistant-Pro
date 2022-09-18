@@ -5,4 +5,7 @@ import sqlite3
 conn = sqlite3.connect('../Data/chats.db')
 
 # Creating a cursor object using the cursor() method
-curso
+cursor = conn.cursor()
+
+def add_data(query):
+    table = "INSERT INTO ASSISTANT(QUERY, DATE_TI
