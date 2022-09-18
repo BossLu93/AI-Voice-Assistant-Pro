@@ -54,4 +54,9 @@ def tell_me_about(query):
 	try:
 		topic = query.replace("tell me about ", "") #re.search(r'([A-Za-z]* [A-Za-z]* [A-Za-z]*)$', query)[1]
 		result = wikipedia.summary(topic, sentences=3)
-		result = re.sub(r'\[.*]', '
+		result = re.sub(r'\[.*]', '', result)
+		return result
+	except (wikipedia.WikipediaException, Exception) as e:
+		return None
+
+def g
