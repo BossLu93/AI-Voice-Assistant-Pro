@@ -8,4 +8,9 @@ conn = sqlite3.connect('../Data/chats.db')
 cursor = conn.cursor()
 
 def add_data(query):
-    table = "INSERT INTO ASSISTANT(QUERY, DATE_TI
+    table = "INSERT INTO ASSISTANT(QUERY, DATE_TIME) VALUES (?, datetime('now', 'localtime'))"
+    cursor.execute(table, (query,))
+    conn.commit()
+    return True
+
+def
