@@ -16,4 +16,6 @@ def add_data(query):
 def get_data():
     data = cursor.execute('SELECT * FROM ASSISTANT')
     table_head = []
-    for column in data
+    for column in data.description:
+        table_head.append(column[0])
+    print("{:<14} {:<79} {:<20}".format(table_head[0], ta
