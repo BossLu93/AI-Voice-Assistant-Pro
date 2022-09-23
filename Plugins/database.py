@@ -13,4 +13,7 @@ def add_data(query):
     conn.commit()
     return True
 
-def
+def get_data():
+    data = cursor.execute('SELECT * FROM ASSISTANT')
+    table_head = []
+    for column in data
