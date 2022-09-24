@@ -18,4 +18,7 @@ def get_data():
     table_head = []
     for column in data.description:
         table_head.append(column[0])
-    print("{:<14} {:<79} {:<20}".format(table_head[0], ta
+    print("{:<14} {:<79} {:<20}".format(table_head[0], table_head[1], table_head[2]))
+    print()
+    for row in data:
+        print("{:<14} {:<79} {:<20}".format(row[0], r
