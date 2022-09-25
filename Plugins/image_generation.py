@@ -7,4 +7,8 @@ import stability_sdk.interfaces.gooseai.generation.generation_pb2 as generation
 
 load_dotenv(dotenv_path='..\\Data\\.env')
 
-DREAMSTUDIO = os.getenv('DREA
+DREAMSTUDIO = os.getenv('DREAMSTUDIO_API')
+
+def generate_image(text):
+    stability_api = client.StabilityInference(
+        key=DREAMSTUDI
