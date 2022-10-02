@@ -16,4 +16,6 @@ def generate_image(text):
     )
 
     # the object returned is a python generator
-    answers = stabili
+    answers = stability_api.generate(
+        prompt=text,
+        seed=95456, # if provided, specifying a random seed makes results determini
