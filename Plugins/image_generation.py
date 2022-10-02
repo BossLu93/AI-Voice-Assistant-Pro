@@ -11,4 +11,9 @@ DREAMSTUDIO = os.getenv('DREAMSTUDIO_API')
 
 def generate_image(text):
     stability_api = client.StabilityInference(
-        key=DREAMSTUDI
+        key=DREAMSTUDIO,
+        verbose=True,
+    )
+
+    # the object returned is a python generator
+    answers = stabili
