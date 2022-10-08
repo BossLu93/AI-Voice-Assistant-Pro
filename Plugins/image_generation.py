@@ -24,4 +24,6 @@ def generate_image(text):
     # iterating over the generator produces the api response
     for resp in answers:
         for artifact in resp.artifacts:
-            if artifact.finish_reason == generation.FILTER
+            if artifact.finish_reason == generation.FILTER:
+                print("WARNING: Your request activated the API's safety filters and could not be processed."
+   
