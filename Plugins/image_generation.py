@@ -28,4 +28,5 @@ def generate_image(text):
                 print("WARNING: Your request activated the API's safety filters and could not be processed."
                     "Please modify the prompt and try again.")
                 return
-            elif a
+            elif artifact.type == generation.ARTIFACT_IMAGE:
+                img = Image.open(io.BytesIO(artifact.binary)
