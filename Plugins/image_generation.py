@@ -22,4 +22,6 @@ def generate_image(text):
     )
 
     # iterating over the generator produces the api response
-    for r
+    for resp in answers:
+        for artifact in resp.artifacts:
+            if artifact.finish_reason == generation.FILTER
