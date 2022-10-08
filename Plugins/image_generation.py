@@ -26,4 +26,6 @@ def generate_image(text):
         for artifact in resp.artifacts:
             if artifact.finish_reason == generation.FILTER:
                 print("WARNING: Your request activated the API's safety filters and could not be processed."
-   
+                    "Please modify the prompt and try again.")
+                return
+            elif a
