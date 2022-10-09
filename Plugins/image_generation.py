@@ -29,4 +29,5 @@ def generate_image(text):
                     "Please modify the prompt and try again.")
                 return
             elif artifact.type == generation.ARTIFACT_IMAGE:
-                img = Image.open(io.BytesIO(artifact.binary)
+                img = Image.open(io.BytesIO(artifact.binary))
+                img.show()
