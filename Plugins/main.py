@@ -12,4 +12,4 @@ try:
     import speech_recognition as sr
     import sys
     #sys.path.insert(0, os.path.expanduser('~') + "/PycharmProjects/Virtual_Voice_Assistant")
-    sy
+    sys.path.insert(0, os.path.expanduser('~')+"/Virtual-Voice-Assistant") # adding voice assistant directory to 
