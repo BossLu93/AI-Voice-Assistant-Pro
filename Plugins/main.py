@@ -11,4 +11,5 @@ try:
     from pickle import load
     import speech_recognition as sr
     import sys
-    #sys.path.insert
+    #sys.path.insert(0, os.path.expanduser('~') + "/PycharmProjects/Virtual_Voice_Assistant")
+    sy
