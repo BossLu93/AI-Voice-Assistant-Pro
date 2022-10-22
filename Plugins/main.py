@@ -22,4 +22,11 @@ try:
     from browsing_functionalities import *
 except (ImportError, SystemError, Exception, KeyboardInterrupt) as e:
     print("ERROR OCCURRED WHILE IMPORTING THE MODULES")
-  
+    exit(0)
+
+'''
+import os
+import logging
+import pyttsx3
+logging.disable(logging.WARNING)
+os.environ['
