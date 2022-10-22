@@ -20,4 +20,6 @@ try:
     from API_functionalities import *
     from system_operations import *
     from browsing_functionalities import *
-except (ImportError, SystemEr
+except (ImportError, SystemError, Exception, KeyboardInterrupt) as e:
+    print("ERROR OCCURRED WHILE IMPORTING THE MODULES")
+  
