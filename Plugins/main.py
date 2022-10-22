@@ -18,4 +18,6 @@ try:
     from image_generation import generate_image
     from gmail import *
     from API_functionalities import *
- 
+    from system_operations import *
+    from browsing_functionalities import *
+except (ImportError, SystemEr
