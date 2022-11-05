@@ -34,4 +34,6 @@ from keras_preprocessing.sequence import pad_sequences
 import numpy as np
 from keras.models import load_model
 from pickle import load
-import speech_re
+import speech_recognition as sr
+import sys
+#sys.path.insert(0, os.path.expanduser('~')+"/PycharmProjects/Virtual_Voice
