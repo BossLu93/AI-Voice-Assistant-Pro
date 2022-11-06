@@ -36,4 +36,5 @@ from keras.models import load_model
 from pickle import load
 import speech_recognition as sr
 import sys
-#sys.path.insert(0, os.path.expanduser('~')+"/PycharmProjects/Virtual_Voice
+#sys.path.insert(0, os.path.expanduser('~')+"/PycharmProjects/Virtual_Voice_Assistant")
+sys.path.insert(0, os.path.expanduser('~')+"/Virtual_Voice_Assistant") # adding voice assistant directory to
