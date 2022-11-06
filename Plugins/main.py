@@ -37,4 +37,7 @@ from pickle import load
 import speech_recognition as sr
 import sys
 #sys.path.insert(0, os.path.expanduser('~')+"/PycharmProjects/Virtual_Voice_Assistant")
-sys.path.insert(0, os.path.expanduser('~')+"/Virtual_Voice_Assistant") # adding voice assistant directory to
+sys.path.insert(0, os.path.expanduser('~')+"/Virtual_Voice_Assistant") # adding voice assistant directory to system path
+# importing modules made for assistant
+from database import *
+from image_generation imp
