@@ -50,4 +50,11 @@ from browsing_functionalities import *
 recognizer = sr.Recognizer()
 
 engine = pyttsx3.init()
-engine.setP
+engine.setProperty('rate', 185)
+
+sys_ops = SystemTasks()
+tab_ops = TabOpt()
+win_ops = WindowOpt()
+
+# load trained model
+m
