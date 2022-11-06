@@ -40,4 +40,7 @@ import sys
 sys.path.insert(0, os.path.expanduser('~')+"/Virtual_Voice_Assistant") # adding voice assistant directory to system path
 # importing modules made for assistant
 from database import *
-from image_generation imp
+from image_generation import generate_image
+from gmail import send_email
+from API_functionalities import *
+from system_operations import *
