@@ -44,3 +44,10 @@ from image_generation import generate_image
 from gmail import send_email
 from API_functionalities import *
 from system_operations import *
+from browsing_functionalities import *
+'''
+
+recognizer = sr.Recognizer()
+
+engine = pyttsx3.init()
+engine.setP
