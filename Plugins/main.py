@@ -60,4 +60,8 @@ win_ops = WindowOpt()
 model = load_model('..\\Data\\chat_model')
 
 # load tokenizer object
-with open('..\\Data\\tokenizer.pickle'
+with open('..\\Data\\tokenizer.pickle', 'rb') as handle:
+    tokenizer = load(handle)
+
+# load label encoder object
+with open('..\\Data\\label_encoder.
