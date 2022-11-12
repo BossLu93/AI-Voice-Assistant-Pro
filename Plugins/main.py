@@ -72,4 +72,11 @@ def speak(text):
     try:
         engine.say(text)
         engine.runAndWait()
-    except KeyboardInterrupt or Runtim
+    except KeyboardInterrupt or RuntimeError:
+        return
+
+def chat(text):
+    # parameters
+    max_len = 20
+    while True:
+        result = mode
