@@ -64,4 +64,9 @@ with open('..\\Data\\tokenizer.pickle', 'rb') as handle:
     tokenizer = load(handle)
 
 # load label encoder object
-with open('..\\Data\\label_encoder.
+with open('..\\Data\\label_encoder.pickle', 'rb') as enc:
+    lbl_encoder = load(enc)
+
+def speak(text):
+    print("ASSISTANT -> " + text)
+ 
