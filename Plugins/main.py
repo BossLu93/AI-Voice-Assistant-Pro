@@ -69,4 +69,7 @@ with open('..\\Data\\label_encoder.pickle', 'rb') as enc:
 
 def speak(text):
     print("ASSISTANT -> " + text)
- 
+    try:
+        engine.say(text)
+        engine.runAndWait()
+    except KeyboardInterrupt or Runtim
