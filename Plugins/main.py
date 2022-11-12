@@ -57,4 +57,7 @@ tab_ops = TabOpt()
 win_ops = WindowOpt()
 
 # load trained model
-m
+model = load_model('..\\Data\\chat_model')
+
+# load tokenizer object
+with open('..\\Data\\tokenizer.pickle'
