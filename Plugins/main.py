@@ -85,4 +85,7 @@ def chat(text):
         return intent
 
 def record():
-    with sr.Microphone() as mi
+    with sr.Microphone() as mic:
+        recognizer.adjust_for_ambient_noise(mic)
+        recognizer.dynamic_energy_threshold = True
+        print("Li
