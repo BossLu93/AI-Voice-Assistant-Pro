@@ -80,4 +80,5 @@ def chat(text):
     max_len = 20
     while True:
         result = model.predict(pad_sequences(tokenizer.texts_to_sequences([text]),
-                                   
+                                                                          truncating='post', maxlen=max_len), verbose=False)
+        intent = lbl_encoder.inve
