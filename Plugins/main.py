@@ -79,4 +79,5 @@ def chat(text):
     # parameters
     max_len = 20
     while True:
-        result = mode
+        result = model.predict(pad_sequences(tokenizer.texts_to_sequences([text]),
+                                   
