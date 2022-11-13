@@ -81,4 +81,8 @@ def chat(text):
     while True:
         result = model.predict(pad_sequences(tokenizer.texts_to_sequences([text]),
                                                                           truncating='post', maxlen=max_len), verbose=False)
-        intent = lbl_encoder.inve
+        intent = lbl_encoder.inverse_transform([np.argmax(result)])[0]
+        return intent
+
+def record():
+    with sr.Microphone() as mi
