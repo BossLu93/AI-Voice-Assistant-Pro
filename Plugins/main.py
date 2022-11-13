@@ -88,4 +88,7 @@ def record():
     with sr.Microphone() as mic:
         recognizer.adjust_for_ambient_noise(mic)
         recognizer.dynamic_energy_threshold = True
-        print("Li
+        print("Listening...")
+        audio = recognizer.listen(mic)
+        try:
+            text = recognizer.recognize_google
