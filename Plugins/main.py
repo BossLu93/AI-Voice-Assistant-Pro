@@ -91,4 +91,7 @@ def record():
         print("Listening...")
         audio = recognizer.listen(mic)
         try:
-            text = recognizer.recognize_google
+            text = recognizer.recognize_google(audio, language='us-in').lower()
+        except:
+            return None
+    prin
