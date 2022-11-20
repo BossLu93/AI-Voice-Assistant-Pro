@@ -94,4 +94,10 @@ def record():
             text = recognizer.recognize_google(audio, language='us-in').lower()
         except:
             return None
-    prin
+    print("USER -> " + text)
+    return text
+
+def listen_audio():
+    try:
+        while True:
+            response = record(
