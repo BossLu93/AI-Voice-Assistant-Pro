@@ -100,4 +100,8 @@ def record():
 def listen_audio():
     try:
         while True:
-            response = record(
+            response = record()
+            if response is None:
+                continue
+            else:
+                main(res
