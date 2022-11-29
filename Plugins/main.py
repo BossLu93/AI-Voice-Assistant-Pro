@@ -104,4 +104,11 @@ def listen_audio():
             if response is None:
                 continue
             else:
-                main(res
+                main(response)
+    except KeyboardInterrupt:
+        return
+
+def main(query):
+        add_data(query)
+        intent = chat(query)
+       
