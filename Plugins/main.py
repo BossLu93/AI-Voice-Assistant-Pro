@@ -111,4 +111,5 @@ def listen_audio():
 def main(query):
         add_data(query)
         intent = chat(query)
-       
+        done = False
+        if ("google" in query and "search" in query) or ("google" in query and "how to" in query) or "g
