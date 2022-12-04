@@ -119,4 +119,7 @@ def main(query):
             youtube(query)
             return
         elif "distance" in query or "map" in query:
-            ge
+            get_map(query)
+            return
+        if intent == "joke" and "joke" in query:
+            joke = get_joke()
