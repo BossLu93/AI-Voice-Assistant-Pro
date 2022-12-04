@@ -116,3 +116,7 @@ def main(query):
             googleSearch(query)
             return
         elif ("youtube" in query and "search" in query) or "play" in query or ("how to" in query and "youtube" in query):
+            youtube(query)
+            return
+        elif "distance" in query or "map" in query:
+            ge
