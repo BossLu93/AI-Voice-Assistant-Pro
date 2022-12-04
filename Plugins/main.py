@@ -115,4 +115,4 @@ def main(query):
         if ("google" in query and "search" in query) or ("google" in query and "how to" in query) or "google" in query:
             googleSearch(query)
             return
-        elif ("yout
+        elif ("youtube" in query and "search" in query) or "play" in query or ("how to" in query and "youtube" in query):
