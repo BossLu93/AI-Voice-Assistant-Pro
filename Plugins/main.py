@@ -126,4 +126,8 @@ def main(query):
             if joke:
                 speak(joke)
                 done = True
-        elif intent ==
+        elif intent == "news" and "news" in query:
+            news = get_news()
+            if news:
+                speak(news)
+        
