@@ -130,4 +130,7 @@ def main(query):
             news = get_news()
             if news:
                 speak(news)
-        
+                done = True
+        elif intent == "ip" and "ip" in query:
+            ip = get_ip()
+            if ip:
