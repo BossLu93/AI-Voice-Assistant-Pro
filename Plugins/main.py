@@ -123,3 +123,7 @@ def main(query):
             return
         if intent == "joke" and "joke" in query:
             joke = get_joke()
+            if joke:
+                speak(joke)
+                done = True
+        elif intent ==
