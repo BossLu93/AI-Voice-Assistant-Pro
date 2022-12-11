@@ -138,4 +138,7 @@ def main(query):
                 done = True
         elif intent == "movies" and "movies" in query:
             speak("Some of the latest popular movies are as follows :")
-            get_popular_mo
+            get_popular_movies()
+            done = True
+        elif intent == "tv_series" and "tv series" in query:
+            spe
