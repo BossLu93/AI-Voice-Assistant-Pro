@@ -134,3 +134,6 @@ def main(query):
         elif intent == "ip" and "ip" in query:
             ip = get_ip()
             if ip:
+                speak(ip)
+                done = True
+        elif intent == "movies" and "movies" in quer
