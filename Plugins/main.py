@@ -136,4 +136,6 @@ def main(query):
             if ip:
                 speak(ip)
                 done = True
-        elif intent == "movies" and "movies" in quer
+        elif intent == "movies" and "movies" in query:
+            speak("Some of the latest popular movies are as follows :")
+            get_popular_mo
