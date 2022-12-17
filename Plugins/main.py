@@ -143,4 +143,6 @@ def main(query):
         elif intent == "tv_series" and "tv series" in query:
             speak("Some of the latest popular tv series are as follows :")
             get_popular_tvseries()
-     
+            done = True
+        elif intent == "weather" and "weather" in query:
+            city = re.se
