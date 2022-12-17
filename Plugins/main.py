@@ -151,4 +151,7 @@ def main(query):
                 weather = get_weather(city)
                 speak(weather)
             else:
-     
+                weather = get_weather()
+                speak(weather)
+            done = True
+        eli
