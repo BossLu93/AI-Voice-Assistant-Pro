@@ -145,4 +145,7 @@ def main(query):
             get_popular_tvseries()
             done = True
         elif intent == "weather" and "weather" in query:
-            city = re.se
+            city = re.search(r"(in|of|for) ([a-zA-Z]*)", query)
+            if city:
+                city = city[2]
+  
