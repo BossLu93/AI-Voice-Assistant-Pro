@@ -148,4 +148,7 @@ def main(query):
             city = re.search(r"(in|of|for) ([a-zA-Z]*)", query)
             if city:
                 city = city[2]
-  
+                weather = get_weather(city)
+                speak(weather)
+            else:
+     
