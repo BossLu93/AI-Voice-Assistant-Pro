@@ -154,4 +154,5 @@ def main(query):
                 weather = get_weather()
                 speak(weather)
             done = True
-        eli
+        elif intent == "internet_speedtest" and "internet" in query:
+            speak("Getting your internet speed, this may tak
