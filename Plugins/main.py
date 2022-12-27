@@ -159,4 +159,6 @@ def main(query):
             speed = get_speedtest()
             if speed:
                 speak(speed)
-               
+                done = True
+        elif intent == "system_stats" and "stats" in query:
+            stats
