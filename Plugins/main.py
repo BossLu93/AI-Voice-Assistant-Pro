@@ -164,4 +164,6 @@ def main(query):
             stats = system_stats()
             speak(stats)
             done = True
-        elif intent == "image_generation"
+        elif intent == "image_generation" and "image" in query:
+            speak("what kind of image you want to generate?")
+         
