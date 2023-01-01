@@ -170,4 +170,7 @@ def main(query):
             speak("Generating image please wait..")
             generate_image(text)
             done = True
-        elif intent == "system_info" and ("info" in query or "specs" in query or "
+        elif intent == "system_info" and ("info" in query or "specs" in query or "information" in query):
+            info = systemInfo()
+            speak(info)
+            done = True
