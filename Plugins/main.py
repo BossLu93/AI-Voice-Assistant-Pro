@@ -166,4 +166,7 @@ def main(query):
             done = True
         elif intent == "image_generation" and "image" in query:
             speak("what kind of image you want to generate?")
+            text = record()
+            speak("Generating image please wait..")
+            generate_image(text)
          
