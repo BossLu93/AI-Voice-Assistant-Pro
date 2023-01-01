@@ -161,4 +161,7 @@ def main(query):
                 speak(speed)
                 done = True
         elif intent == "system_stats" and "stats" in query:
-            stats
+            stats = system_stats()
+            speak(stats)
+            done = True
+        elif intent == "image_generation"
