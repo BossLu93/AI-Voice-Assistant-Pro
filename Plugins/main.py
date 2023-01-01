@@ -169,4 +169,5 @@ def main(query):
             text = record()
             speak("Generating image please wait..")
             generate_image(text)
-         
+            done = True
+        elif intent == "system_info" and ("info" in query or "specs" in query or "
