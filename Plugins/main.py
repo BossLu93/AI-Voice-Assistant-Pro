@@ -174,3 +174,6 @@ def main(query):
             info = systemInfo()
             speak(info)
             done = True
+        elif intent == "email" and "email" in query:
+            speak("Type the receiver id : ")
+     
