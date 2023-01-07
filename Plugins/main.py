@@ -176,4 +176,6 @@ def main(query):
             done = True
         elif intent == "email" and "email" in query:
             speak("Type the receiver id : ")
-     
+            receiver_id = input()
+            while not check_email(receiver_id):
+                speak("Invalid emai
