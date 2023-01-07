@@ -178,4 +178,6 @@ def main(query):
             speak("Type the receiver id : ")
             receiver_id = input()
             while not check_email(receiver_id):
-                speak("Invalid emai
+                speak("Invalid email id\nType reciever id again : ")
+                receiver_id = input()
+            speak("Tell the subject 
