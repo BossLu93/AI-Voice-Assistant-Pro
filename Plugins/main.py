@@ -183,4 +183,7 @@ def main(query):
             speak("Tell the subject of email")
             subject = record()
             speak("tell the body of email")
-            body = record
+            body = record()
+            success = send_email(receiver_id, subject, body)
+            if success:
+                speak('Email se
