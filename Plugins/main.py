@@ -192,3 +192,7 @@ def main(query):
             done = True
         elif intent == "select_text" and "select" in query:
             sys_ops.select()
+            done = True
+        elif intent == "copy_text" and "copy" in query:
+            sys_ops.copy()
+     
