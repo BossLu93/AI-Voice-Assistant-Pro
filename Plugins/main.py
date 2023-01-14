@@ -180,4 +180,7 @@ def main(query):
             while not check_email(receiver_id):
                 speak("Invalid email id\nType reciever id again : ")
                 receiver_id = input()
-            speak("Tell the subject 
+            speak("Tell the subject of email")
+            subject = record()
+            speak("tell the body of email")
+            body = record
