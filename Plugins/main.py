@@ -186,4 +186,6 @@ def main(query):
             body = record()
             success = send_email(receiver_id, subject, body)
             if success:
-                speak('Email se
+                speak('Email sent successfully')
+            else:
+                speak("Error occurred while sending email"
