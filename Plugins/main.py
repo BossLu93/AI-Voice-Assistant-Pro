@@ -188,4 +188,7 @@ def main(query):
             if success:
                 speak('Email sent successfully')
             else:
-                speak("Error occurred while sending email"
+                speak("Error occurred while sending email")
+            done = True
+        elif intent == "select_text" and "select" in query:
+            sys_ops.select()
