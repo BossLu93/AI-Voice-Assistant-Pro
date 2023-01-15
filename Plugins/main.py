@@ -195,4 +195,7 @@ def main(query):
             done = True
         elif intent == "copy_text" and "copy" in query:
             sys_ops.copy()
-     
+            done = True
+        elif intent == "paste_text" and "paste" in query:
+            sys_ops.paste()
+   
