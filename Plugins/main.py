@@ -198,4 +198,6 @@ def main(query):
             done = True
         elif intent == "paste_text" and "paste" in query:
             sys_ops.paste()
-   
+            done = True
+        elif intent == "delete_text" and "delete" in query:
+            sys_ops.delete()
