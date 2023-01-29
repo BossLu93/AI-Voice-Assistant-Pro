@@ -201,3 +201,6 @@ def main(query):
             done = True
         elif intent == "delete_text" and "delete" in query:
             sys_ops.delete()
+            done = True
+        elif intent == "new_file" and "new" in query:
+            sys_ops.new_file()
