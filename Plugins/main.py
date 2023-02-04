@@ -204,3 +204,6 @@ def main(query):
             done = True
         elif intent == "new_file" and "new" in query:
             sys_ops.new_file()
+            done = True
+        elif intent == "switch_tab" and "switch" in query and "tab" in query:
+    
