@@ -206,4 +206,6 @@ def main(query):
             sys_ops.new_file()
             done = True
         elif intent == "switch_tab" and "switch" in query and "tab" in query:
-    
+            tab_ops.switchTab()
+            done = True
+        elif intent == "close_tab" and "close" in query
