@@ -208,4 +208,7 @@ def main(query):
         elif intent == "switch_tab" and "switch" in query and "tab" in query:
             tab_ops.switchTab()
             done = True
-        elif intent == "close_tab" and "close" in query
+        elif intent == "close_tab" and "close" in query and "tab" in query:
+            tab_ops.closeTab()
+            done = True
+        elif intent == "new_tab" and "n
