@@ -214,4 +214,7 @@ def main(query):
         elif intent == "new_tab" and "new" in query and "tab" in query:
             tab_ops.newTab()
             done = True
-        elif inte
+        elif intent == "close_window" and "close" in query:
+            win_ops.closeWindow()
+            done = True
+    
