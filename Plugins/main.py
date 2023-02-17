@@ -217,4 +217,6 @@ def main(query):
         elif intent == "close_window" and "close" in query:
             win_ops.closeWindow()
             done = True
-    
+        elif intent == "switch_window" and "switch" in query:
+            win_ops.switchWindow()
+            done = 
