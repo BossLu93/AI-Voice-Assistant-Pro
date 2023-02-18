@@ -219,4 +219,6 @@ def main(query):
             done = True
         elif intent == "switch_window" and "switch" in query:
             win_ops.switchWindow()
-            done = 
+            done = True
+        elif intent == "minimize_window" and "minimize" in query:
+            win_ops.m
