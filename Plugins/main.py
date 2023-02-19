@@ -224,4 +224,6 @@ def main(query):
             win_ops.minimizeWindow()
             done = True
         elif intent == "maximize_window" and "maximize" in query:
-   
+            win_ops.maximizeWindow()
+            done = True
+        elif intent == "screenshot" and "screenshot
