@@ -226,4 +226,7 @@ def main(query):
         elif intent == "maximize_window" and "maximize" in query:
             win_ops.maximizeWindow()
             done = True
-        elif intent == "screenshot" and "screenshot
+        elif intent == "screenshot" and "screenshot" in query:
+            win_ops.Screen_Shot()
+            done = True
+        elif intent == "stopwatch":
