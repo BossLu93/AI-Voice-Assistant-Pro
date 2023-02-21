@@ -230,3 +230,6 @@ def main(query):
             win_ops.Screen_Shot()
             done = True
         elif intent == "stopwatch":
+            pass
+        elif intent == "wikipedia" and ("tell" in query or "about" in query):
+            
