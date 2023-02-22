@@ -232,4 +232,8 @@ def main(query):
         elif intent == "stopwatch":
             pass
         elif intent == "wikipedia" and ("tell" in query or "about" in query):
-            
+            description = tell_me_about(query)
+            if description:
+                speak(description)
+            else:
+    
