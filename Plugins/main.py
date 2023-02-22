@@ -236,4 +236,7 @@ def main(query):
             if description:
                 speak(description)
             else:
-    
+                googleSearch(query)
+            done = True
+        elif intent == "math":
+            ans
