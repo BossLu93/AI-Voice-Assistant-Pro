@@ -243,4 +243,6 @@ def main(query):
             if answer:
                 speak(answer)
                 done = True
-        elif inten
+        elif intent == "open_website":
+            completed = open_specified_website(query)
+            if co
