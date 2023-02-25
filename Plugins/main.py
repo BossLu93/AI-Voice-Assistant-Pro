@@ -239,4 +239,8 @@ def main(query):
                 googleSearch(query)
             done = True
         elif intent == "math":
-            ans
+            answer = get_general_response(query)
+            if answer:
+                speak(answer)
+                done = True
+        elif inten
