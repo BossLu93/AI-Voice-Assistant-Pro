@@ -245,4 +245,8 @@ def main(query):
                 done = True
         elif intent == "open_website":
             completed = open_specified_website(query)
-            if co
+            if completed:
+                done = True
+        elif intent == "open_app":
+            completed = open_app(query)
+         
