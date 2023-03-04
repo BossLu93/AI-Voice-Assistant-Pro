@@ -259,3 +259,5 @@ def main(query):
         elif intent == "get_data" and "history" in query:
             get_data()
             done = True
+        elif intent == "exit" and ("exit" in query or "terminate" in query or "quit" in query):
+            
