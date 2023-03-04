@@ -256,4 +256,6 @@ def main(query):
             note = record()
             take_note(note)
             done = True
-  
+        elif intent == "get_data" and "history" in query:
+            get_data()
+            done = True
