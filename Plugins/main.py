@@ -249,4 +249,7 @@ def main(query):
                 done = True
         elif intent == "open_app":
             completed = open_app(query)
-         
+            if completed:
+                done = True
+        elif intent == "note" and "note" in query:
+            speak("what would 
