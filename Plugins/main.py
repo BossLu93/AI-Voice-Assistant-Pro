@@ -252,4 +252,8 @@ def main(query):
             if completed:
                 done = True
         elif intent == "note" and "note" in query:
-            speak("what would 
+            speak("what would you like to take down?")
+            note = record()
+            take_note(note)
+            done = True
+  
