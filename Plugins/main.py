@@ -263,4 +263,7 @@ def main(query):
             exit(0)
         if not done:
             answer = get_general_response(query)
-            if answer
+            if answer:
+                speak(answer)
+            else:
+                speak("Sorry, not able to answer your q
