@@ -266,4 +266,12 @@ def main(query):
             if answer:
                 speak(answer)
             else:
-                speak("Sorry, not able to answer your q
+                speak("Sorry, not able to answer your query")
+        return
+
+
+if __name__ == "__main__":
+    try:
+        listen_audio()
+    except:
+        print("EXIT
