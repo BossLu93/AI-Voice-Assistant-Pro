@@ -260,4 +260,7 @@ def main(query):
             get_data()
             done = True
         elif intent == "exit" and ("exit" in query or "terminate" in query or "quit" in query):
-            
+            exit(0)
+        if not done:
+            answer = get_general_response(query)
+            if answer
