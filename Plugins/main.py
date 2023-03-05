@@ -274,4 +274,4 @@ if __name__ == "__main__":
     try:
         listen_audio()
     except:
-        print("EXIT
+        print("EXITED")
