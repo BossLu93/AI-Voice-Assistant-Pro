@@ -13,4 +13,10 @@ from tensorflow.python.keras.layers import Dense, Embedding, GlobalAveragePoolin
 with open('..\\Data\\intents.json') as file:
     data = json.load(file)
 
-tr
+training_sentences = []
+training_labels = []
+labels = []
+#responses = []
+
+for intent in data['intents']:
+    f
