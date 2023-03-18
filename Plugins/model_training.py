@@ -19,4 +19,6 @@ labels = []
 #responses = []
 
 for intent in data['intents']:
-    f
+    for pattern in intent['patterns']:
+        training_sentences.append(pattern)
+        training_labels.appe
