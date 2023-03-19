@@ -34,4 +34,7 @@ training_labels = lbl_encoder.transform(training_labels)
 vocab_size = 1000
 embedding_dim = 16
 max_len = 20
-oov_t
+oov_token = "<OOV>"
+
+tokenizer = Tokenizer(num_words=vocab_size, oov_token=oov_token)
+tokenizer.fit_on_texts(trai
