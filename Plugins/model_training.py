@@ -25,4 +25,9 @@ for intent in data['intents']:
     #responses.append(intent['responses'])
 
     if intent['tag'] not in labels:
-      
+        labels.append(intent['tag'])
+
+num_classes = len(labels)
+lbl_encoder = LabelEncoder()
+lbl_encoder.fit(training_labels)
+t
