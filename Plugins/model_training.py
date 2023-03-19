@@ -30,4 +30,8 @@ for intent in data['intents']:
 num_classes = len(labels)
 lbl_encoder = LabelEncoder()
 lbl_encoder.fit(training_labels)
-t
+training_labels = lbl_encoder.transform(training_labels)
+vocab_size = 1000
+embedding_dim = 16
+max_len = 20
+oov_t
