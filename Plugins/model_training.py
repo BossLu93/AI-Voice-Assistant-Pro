@@ -41,4 +41,7 @@ tokenizer.fit_on_texts(training_sentences)
 word_index = tokenizer.word_index
 sequences = tokenizer.texts_to_sequences(training_sentences)
 padded_sequences = pad_sequences(sequences, truncating='post', maxlen=max_len)
-model = Sequential(
+model = Sequential()
+model.add(Embedding(vocab_size, embedding_dim, input_length=max_len))
+model.add(GlobalAveragePooling1D())
+model.
