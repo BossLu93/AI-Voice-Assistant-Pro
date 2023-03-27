@@ -49,4 +49,8 @@ model.add(Dense(16, activation='relu'))
 model.add(Dense(num_classes, activation='softmax'))
 
 model.compile(loss='sparse_categorical_crossentropy',
-            
+              optimizer='adam', metrics=['accuracy'])
+
+model.summary()
+epochs = 500
+history = model.fit(padded_sequences, np.a
