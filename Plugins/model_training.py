@@ -59,3 +59,6 @@ model.save("..\\Data\\chat_model")
 
 import pickle
 
+# to save the fitted tokenizer
+with open('..\\Data\\tokenizer.pickle', 'wb') as handle:
+    pickle.dump(tokenizer,
