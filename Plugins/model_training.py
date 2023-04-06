@@ -64,4 +64,5 @@ with open('..\\Data\\tokenizer.pickle', 'wb') as handle:
     pickle.dump(tokenizer, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
 # to save the fitted label encoder
-with open('..\\Data\\label_encoder.pickl
+with open('..\\Data\\label_encoder.pickle', 'wb') as ecn_file:
+    pickle.dump(lbl_encoder, ecn_file, protocol=pickle.HIGHEST_PROTOCOL)
