@@ -61,4 +61,7 @@ import pickle
 
 # to save the fitted tokenizer
 with open('..\\Data\\tokenizer.pickle', 'wb') as handle:
-    pickle.dump(tokenizer,
+    pickle.dump(tokenizer, handle, protocol=pickle.HIGHEST_PROTOCOL)
+
+# to save the fitted label encoder
+with open('..\\Data\\label_encoder.pickl
