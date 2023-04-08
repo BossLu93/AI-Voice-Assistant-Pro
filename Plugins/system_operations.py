@@ -130,3 +130,60 @@ def systemInfo():
            f"Owner: {my_system_2.PrimaryOwnerName}\n" \
            f"Number of Processors: {psutil.cpu_count()}\n" \
            f"System Type: {my_system_2.SystemType}"
+    return info
+
+
+def convert_size(size_bytes):
+    if size_bytes == 0:
+        return "0B"
+    size_name = ("B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB")
+    i = int(math.floor(math.log(size_bytes, 1024)))
+    p = math.pow(1024, i)
+    s = round(size_bytes / p, 2)
+    return "%s %s" % (s, size_name[i])
+
+
+def system_stats():
+    cpu_stats = str(psutil.cpu_percent())
+    battery_percent = psutil.sensors_battery().percent
+    memory_in_use = convert_size(psutil.virtual_memory().used)
+    total_memory = convert_size(psutil.virtual_memory().total)
+    stats = f"Currently {cpu_stats} percent of CPU, {memory_in_use} of RAM out of total {total_memory} is being used and " \
+                f"battery level is at {battery_percent}%"
+    return stats
+
+
+def app_path(app):
+    app_paths = {'access': 'C:\\Program Files (x86)\\Microsoft Office\\Office14\\ACCICONS.exe',
+                 'powerpoint': 'C:\\Program Files (x86)\\Microsoft Office\\Office14\\POWERPNT.exe',
+                 'word': 'C:\\Program Files (x86)\\Microsoft Office\\Office14\\WINWORD.exe',
+                 'excel': 'C:\\Program Files (x86)\\Microsoft Office\\Office14\\EXCEL.exe',
+                 'outlook': 'C:\\Program Files (x86)\\Microsoft Office\\Office14\\OUTLOOK.exe',
+                 'onenote': 'C:\\Program Files (x86)\\Microsoft Office\\Office14\\ONENOTE.exe',
+                 'publisher': 'C:\\Program Files (x86)\\Microsoft Office\\Office14\\MSPUB.exe',
+                 'sharepoint': 'C:\\Program Files (x86)\\Microsoft Office\\Office14\\GROOVE.exe',
+                 'infopath designer': 'C:\\Program Files (x86)\\Microsoft Office\\Office14\\INFOPATH.exe',
+                 'infopath filler': 'C:\\Program Files (x86)\\Microsoft Office\\Office14\\INFOPATH.exe'}
+    try:
+        return app_paths[app]
+    except KeyError:
+        return None
+
+
+def open_app(query):
+    ms_office = ('access', 'powerpoint', 'word', 'excel', 'outlook', 'onenote', 'publisher', 'sharepoint', 'infopath designer',
+                 'infopath filler')
+    for app in ms_office:
+        if app in query:
+            path = app_path(app)
+            subprocess.Popen(path)
+            return True
+    AppOpener.run(query[5:])
+    return True
+
+def take_note(note):
+    open_app("open notepad")
+    time.sleep(0.2)
+    sys_task = SystemTasks()
+    sys_task.write(note)
+    sys_task.save(f'note_{randint(1, 100)}')
