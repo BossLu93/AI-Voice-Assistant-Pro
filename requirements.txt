@@ -4,4 +4,10 @@ tensorflow==2.10.0
 Keras==2.10.0
 Keras_Preprocessing==1.1.2
 numpy==1.23.3
-scikit-learn==1.
+scikit-learn==1.1.2
+Pillow==9.2.0
+stability-sdk==0.3.0
+newsapi-python==0.2.6
+wolframalpha==5.0.0
+wikipedia==1.4.0
+speedtest-cli==2.1
