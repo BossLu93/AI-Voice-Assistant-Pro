@@ -4,4 +4,10 @@ print("THIS MAY TAKE A WHILE DEPENDING ON YOUR SYSTEM AND INTERNET SPEED\n\nPLEA
 
 try:
     subprocess.run(["pip", "install", "-r", "requirements.txt"])
-except
+except KeyboardInterrupt:
+    print("DOWNLOAD STOPPED")
+    exit(0)
+
+import os
+import logging
+logging.disabl
