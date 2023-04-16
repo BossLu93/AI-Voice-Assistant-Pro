@@ -13,4 +13,7 @@ import logging
 logging.disable(logging.WARNING)
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3' # disabling warnings for gpu requirements
 
-import sql
+import sqlite3
+conn = sqlite3.connect('Data/chats.db')
+cursor = conn.cursor()
+table = '''CREATE TABLE IF NOT EXISTS ASSIST
