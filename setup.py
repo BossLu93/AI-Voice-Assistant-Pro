@@ -18,4 +18,9 @@ conn = sqlite3.connect('Data/chats.db')
 cursor = conn.cursor()
 table = '''CREATE TABLE IF NOT EXISTS ASSISTANT (SERIAL_NO INTEGER PRIMARY KEY,
             QUERY VARCHAR(255) NOT NULL ,
-            DATE_TIME VAR
+            DATE_TIME VARCHAR(50) NOT NULL );'''
+cursor.execute(table)
+conn.commit()
+
+try:
+    # importing prebuilt mo
