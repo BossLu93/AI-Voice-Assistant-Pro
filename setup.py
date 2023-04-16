@@ -10,4 +10,7 @@ except KeyboardInterrupt:
 
 import os
 import logging
-logging.disabl
+logging.disable(logging.WARNING)
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3' # disabling warnings for gpu requirements
+
+import sql
