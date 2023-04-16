@@ -16,4 +16,6 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3' # disabling warnings for gpu requiremen
 import sqlite3
 conn = sqlite3.connect('Data/chats.db')
 cursor = conn.cursor()
-table = '''CREATE TABLE IF NOT EXISTS ASSIST
+table = '''CREATE TABLE IF NOT EXISTS ASSISTANT (SERIAL_NO INTEGER PRIMARY KEY,
+            QUERY VARCHAR(255) NOT NULL ,
+            DATE_TIME VAR
