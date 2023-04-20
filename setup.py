@@ -23,4 +23,8 @@ cursor.execute(table)
 conn.commit()
 
 try:
-    # importing prebuilt mo
+    # importing prebuilt modules
+    import pyttsx3
+    from keras_preprocessing.sequence import pad_sequences
+    import numpy as np
+    from
