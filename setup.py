@@ -27,4 +27,6 @@ try:
     import pyttsx3
     from keras_preprocessing.sequence import pad_sequences
     import numpy as np
-    from
+    from keras.models import load_model
+    from pickle import load
+    import speech_recognitio
