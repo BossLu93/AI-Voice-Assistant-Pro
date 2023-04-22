@@ -38,4 +38,9 @@ try:
     from tensorflow.python.keras.layers import Dense, Embedding, GlobalAveragePooling1D
     import datetime
     from dotenv import load_dotenv
-    from newsapi import NewsApiC
+    from newsapi import NewsApiClient
+    import re
+    import requests
+    from wolframalpha import Client
+    import webbrowser
+    i
