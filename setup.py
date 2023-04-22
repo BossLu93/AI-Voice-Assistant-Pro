@@ -35,4 +35,7 @@ try:
     from keras_preprocessing.sequence import pad_sequences
     from sklearn.preprocessing import LabelEncoder
     from tensorflow.python.keras.models import Sequential
-    from tensorflow.python.keras.layers import Dense, Embedding, GlobalAveragePool
+    from tensorflow.python.keras.layers import Dense, Embedding, GlobalAveragePooling1D
+    import datetime
+    from dotenv import load_dotenv
+    from newsapi import NewsApiC
