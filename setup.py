@@ -32,4 +32,6 @@ try:
     import speech_recognition as sr
     import sys
     from keras.preprocessing.text import Tokenizer
-    from keras_prep
+    from keras_preprocessing.sequence import pad_sequences
+    from sklearn.preprocessing import LabelEncoder
+    from tensorflow.python.keras.mod
