@@ -29,4 +29,7 @@ try:
     import numpy as np
     from keras.models import load_model
     from pickle import load
-    import speech_recognitio
+    import speech_recognition as sr
+    import sys
+    from keras.preprocessing.text import Tokenizer
+    from keras_prep
