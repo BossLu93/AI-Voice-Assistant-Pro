@@ -43,4 +43,8 @@ try:
     import requests
     from wolframalpha import Client
     import webbrowser
-    i
+    import wikipedia
+    import speedtest
+    from youtubesearchpython import VideosSearch
+    import smtplib
+    import io
