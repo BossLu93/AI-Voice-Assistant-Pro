@@ -63,4 +63,7 @@ try:
 except ImportError:
     print("MODULES NOT INSTALLED!")
     exit(0)
-except Keyboa
+except KeyboardInterrupt:
+    print("INTERRUPTED WHILE IMPORTING MODULES")
+
+print("\n\nSETUP SUCCESSFUL")
