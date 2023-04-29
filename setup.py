@@ -58,4 +58,9 @@ try:
     from random import randint
     import AppOpener
     from pynput.keyboard import Key, Controller
-    from PIL import Ima
+    from PIL import ImageGrab
+    import wmi
+except ImportError:
+    print("MODULES NOT INSTALLED!")
+    exit(0)
+except Keyboa
