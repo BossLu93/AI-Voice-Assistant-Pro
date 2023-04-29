@@ -55,4 +55,7 @@ try:
     import math
     import psutil
     import time
-    from random 
+    from random import randint
+    import AppOpener
+    from pynput.keyboard import Key, Controller
+    from PIL import Ima
