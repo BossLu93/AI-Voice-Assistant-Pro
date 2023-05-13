@@ -5,3 +5,5 @@
 #### Click here for the comprehensive [Project Report](https://github.com/BossLu93/AI-Voice-Assistant-Pro/blob/main/Project%20Report%20GitHub.pdf)
 
 ## Features
+Our AI Voice Assistant Pro is equipped with numerous features, such as:
+- Offering jokes to make you sm
