@@ -8,4 +8,6 @@
 Our AI Voice Assistant Pro is equipped with numerous features, such as:
 - Offering jokes to make you smile.
 - Presenting the latest news headlines for keeping you updated.
-- Revealing your IP address
+- Revealing your IP address for facilitating connectivity.
+- Providing the latest updates about movies & TV series.
+- Furnishing curren
