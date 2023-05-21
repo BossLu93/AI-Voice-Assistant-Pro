@@ -12,4 +12,6 @@ Our AI Voice Assistant Pro is equipped with numerous features, such as:
 - Providing the latest updates about movies & TV series.
 - Furnishing current weather reports for any city and using the IP address for precise local weather updates.
 - Assessing your internet speed for optimum connectivity.
-- Providing system stats, including RAM & CPU usage, battery percentag
+- Providing system stats, including RAM & CPU usage, battery percentage, and system specifications.
+- Generating an image from the user-provided text.
+- Facilitating 
