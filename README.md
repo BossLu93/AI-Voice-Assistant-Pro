@@ -11,4 +11,5 @@ Our AI Voice Assistant Pro is equipped with numerous features, such as:
 - Revealing your IP address for facilitating connectivity.
 - Providing the latest updates about movies & TV series.
 - Furnishing current weather reports for any city and using the IP address for precise local weather updates.
-- Assessing your int
+- Assessing your internet speed for optimum connectivity.
+- Providing system stats, including RAM & CPU usage, battery percentag
