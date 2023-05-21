@@ -14,4 +14,5 @@ Our AI Voice Assistant Pro is equipped with numerous features, such as:
 - Assessing your internet speed for optimum connectivity.
 - Providing system stats, including RAM & CPU usage, battery percentage, and system specifications.
 - Generating an image from the user-provided text.
-- Facilitating 
+- Facilitating emails for seamless communication.
+- Accomplishing system operations like opening, closi
