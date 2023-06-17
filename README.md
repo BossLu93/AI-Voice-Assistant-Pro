@@ -17,4 +17,5 @@ Our AI Voice Assistant Pro is equipped with numerous features, such as:
 - Facilitating emails for seamless communication.
 - Accomplishing system operations like opening, closing, switching tabs; copying, pasting, deleting, and selecting text; creating new files; minimizing, maximizing, switching, closing windows etc.
 - Taking screenshots for capturing significant moments.
-- Offeri
+- Offering brief information (3 sentences) on any topic or personality.
+- Performing math operations and
