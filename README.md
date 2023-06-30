@@ -24,4 +24,6 @@ Our AI Voice Assistant Pro is equipped with numerous features, such as:
 - Saving chat history for future reference.
 - Executing Google searches for relevant information.
 - Playing songs and videos on YouTube for leisure.
-- Displaying 
+- Displaying maps of any city and calculating distance between two destinations via Google Maps.<br>
+
+NOTE: To enable th
