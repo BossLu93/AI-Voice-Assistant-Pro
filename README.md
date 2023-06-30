@@ -19,4 +19,6 @@ Our AI Voice Assistant Pro is equipped with numerous features, such as:
 - Taking screenshots for capturing significant moments.
 - Offering brief information (3 sentences) on any topic or personality.
 - Performing math operations and answering general queries and GK questions.
-- Opening apps and websites for increased produ
+- Opening apps and websites for increased productivity.
+- Taking notes for tracking important information.
+- Saving chat history for future re
