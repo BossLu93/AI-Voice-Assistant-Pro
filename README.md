@@ -21,4 +21,7 @@ Our AI Voice Assistant Pro is equipped with numerous features, such as:
 - Performing math operations and answering general queries and GK questions.
 - Opening apps and websites for increased productivity.
 - Taking notes for tracking important information.
-- Saving chat history for future re
+- Saving chat history for future reference.
+- Executing Google searches for relevant information.
+- Playing songs and videos on YouTube for leisure.
+- Displaying 
