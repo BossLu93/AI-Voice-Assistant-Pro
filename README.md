@@ -29,4 +29,5 @@ Our AI Voice Assistant Pro is equipped with numerous features, such as:
 NOTE: To enable the AI Voice Assistant Pro to send emails, turn on the "Less secure apps" option in your Gmail account. Click [here](https://myaccount.google.com/lesssecureapps) to enable access.
 
 ## API Keys
-You need to register for sever
+You need to register for several API keys to run this program. Register your API key by clicking the following links
+- [OpenWeatherMa
