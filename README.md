@@ -26,4 +26,7 @@ Our AI Voice Assistant Pro is equipped with numerous features, such as:
 - Playing songs and videos on YouTube for leisure.
 - Displaying maps of any city and calculating distance between two destinations via Google Maps.<br>
 
-NOTE: To enable the AI Voice Assistant Pro to send emails, turn on the "Less secure apps" option in your Gmail account. Click [here](https://m
+NOTE: To enable the AI Voice Assistant Pro to send emails, turn on the "Less secure apps" option in your Gmail account. Click [here](https://myaccount.google.com/lesssecureapps) to enable access.
+
+## API Keys
+You need to register for sever
