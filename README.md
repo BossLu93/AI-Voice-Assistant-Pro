@@ -32,4 +32,6 @@ NOTE: To enable the AI Voice Assistant Pro to send emails, turn on the "Less sec
 You need to register for several API keys to run this program. Register your API key by clicking the following links
 - [OpenWeatherMap API](https://openweathermap.org/api)
 - [Wolframaplha API](https://products.wolframalpha.com/api)
-- [News API](h
+- [News API](https://newsapi.org/)
+- [TMDB API](https://developers.themoviedb.org/3/getting-started/introduction)
+- [DreamS
