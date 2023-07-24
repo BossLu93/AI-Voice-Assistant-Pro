@@ -38,4 +38,8 @@ You need to register for several API keys to run this program. Register your API
 
 ## Installation
 
-Ensure that `Python` and `pip`
+Ensure that `Python` and `pip` are installed in your system before proceeding.
+
+Open command prompt and navigate to your home directory.
+
+Clone
