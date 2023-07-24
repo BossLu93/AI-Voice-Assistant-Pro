@@ -34,4 +34,8 @@ You need to register for several API keys to run this program. Register your API
 - [Wolframaplha API](https://products.wolframalpha.com/api)
 - [News API](https://newsapi.org/)
 - [TMDB API](https://developers.themoviedb.org/3/getting-started/introduction)
-- [DreamS
+- [DreamStudio API](https://platform.stability.ai/docs/getting-started/authentication)
+
+## Installation
+
+Ensure that `Python` and `pip`
