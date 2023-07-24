@@ -47,4 +47,9 @@ Clone the repository using
 git clone https://github.com/BossLu93/AI-Voice-Assistant-Pro.git
 ```
 
-Navigate t
+Navigate to the project directory
+```
+cd AI-Voice-Assistant-Pro
+```
+
+Acquire necessary API keys and open the file `AI-
