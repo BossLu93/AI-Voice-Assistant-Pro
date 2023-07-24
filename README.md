@@ -42,4 +42,9 @@ Ensure that `Python` and `pip` are installed in your system before proceeding.
 
 Open command prompt and navigate to your home directory.
 
-Clone
+Clone the repository using
+```
+git clone https://github.com/BossLu93/AI-Voice-Assistant-Pro.git
+```
+
+Navigate t
