@@ -52,4 +52,4 @@ Navigate to the project directory
 cd AI-Voice-Assistant-Pro
 ```
 
-Acquire necessary API keys and open the file `AI-
+Acquire necessary API keys and open the file `AI-Voice-Assistant-Pro/Data/.env` to insert the keys in the designated placeholder fields
