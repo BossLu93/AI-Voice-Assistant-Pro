@@ -69,4 +69,5 @@ You are ready to go! AI Voice Assistant Pro should be operational now.
 ## Code Structure
 
     ├── AI-Voice-Assistant-Pro
-       
+        ├── Data                              
+            ├── .env                          # Stores API
