@@ -64,4 +64,9 @@ Navigate to the `AI-Voice-Assistant-Pro/Plugins/` and run this command to start 
 python main.py
 ```
 
-You are ready to go! AI 
+You are ready to go! AI Voice Assistant Pro should be operational now.
+
+## Code Structure
+
+    ├── AI-Voice-Assistant-Pro
+       
