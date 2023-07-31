@@ -59,4 +59,9 @@ Run the setup script
 python setup.py
 ```
 
-Navigate to the `AI-Voice-Assistant-Pro/Plug
+Navigate to the `AI-Voice-Assistant-Pro/Plugins/` and run this command to start the AI Voice Assistant Pro.
+```
+python main.py
+```
+
+You are ready to go! AI 
