@@ -75,4 +75,5 @@ You are ready to go! AI Voice Assistant Pro should be operational now.
             ├── chats.db                      # Database file that stores chat history
             ├── intents.json                  # Data on which the model is trained
             ├── label_encoder.pickle          # Converts text labels into numerical values
-        
+            └── tokenizer.pickle              # Splits the text into separate tokens
+        ├── Plugi
