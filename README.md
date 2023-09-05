@@ -71,4 +71,5 @@ You are ready to go! AI Voice Assistant Pro should be operational now.
     ├── AI-Voice-Assistant-Pro
         ├── Data                              
             ├── .env                          # Stores API keys, email, and password.
-            ├── chat_model                    # Directory that stores the trained
+            ├── chat_model                    # Directory that stores the trained model used to understand user's intent
+            ├── chats.db                      # Database file that stores chat hi
