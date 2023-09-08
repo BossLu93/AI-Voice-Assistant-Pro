@@ -76,4 +76,6 @@ You are ready to go! AI Voice Assistant Pro should be operational now.
             ├── intents.json                  # Data on which the model is trained
             ├── label_encoder.pickle          # Converts text labels into numerical values
             └── tokenizer.pickle              # Splits the text into separate tokens
-        ├── Plugi
+        ├── Plugins
+            ├── API_functionalities.py        # Contains functions that interact with different APIs
+            
