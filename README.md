@@ -78,4 +78,5 @@ You are ready to go! AI Voice Assistant Pro should be operational now.
             └── tokenizer.pickle              # Splits the text into separate tokens
         ├── Plugins
             ├── API_functionalities.py        # Contains functions that interact with different APIs
-            
+            ├── browsing_functionalities.py   # Contains functions for web browsing
+            ├── database.py               
