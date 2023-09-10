@@ -79,4 +79,5 @@ You are ready to go! AI Voice Assistant Pro should be operational now.
         ├── Plugins
             ├── API_functionalities.py        # Contains functions that interact with different APIs
             ├── browsing_functionalities.py   # Contains functions for web browsing
-            ├── database.py               
+            ├── database.py                   # Contains functions for interacting with chat history database
+            ├── gmail.py             
