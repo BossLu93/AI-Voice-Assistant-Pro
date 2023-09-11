@@ -83,4 +83,5 @@ You are ready to go! AI Voice Assistant Pro should be operational now.
             ├── gmail.py                      # Contains functions for sending emails
             ├── image_generation.py           # Contains functions for generating images from text
             ├── main.py                       # It is the starting point of the AI Voice Assistant Pro
-            ├── model_training.py             # Contains func
+            ├── model_training.py             # Contains functions for training the intent recognition model
+            ├── system_operations.py          # Con
