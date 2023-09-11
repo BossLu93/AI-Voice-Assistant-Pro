@@ -84,4 +84,5 @@ You are ready to go! AI Voice Assistant Pro should be operational now.
             ├── image_generation.py           # Contains functions for generating images from text
             ├── main.py                       # It is the starting point of the AI Voice Assistant Pro
             ├── model_training.py             # Contains functions for training the intent recognition model
-            ├── system_operations.py          # Con
+            ├── system_operations.py          # Contains functions for system operations
+            └── websites.py                   # Contains a list of websites that
