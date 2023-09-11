@@ -82,4 +82,5 @@ You are ready to go! AI Voice Assistant Pro should be operational now.
             ├── database.py                   # Contains functions for interacting with chat history database
             ├── gmail.py                      # Contains functions for sending emails
             ├── image_generation.py           # Contains functions for generating images from text
-            ├── main.py                       # It is the starting point
+            ├── main.py                       # It is the starting point of the AI Voice Assistant Pro
+            ├── model_training.py             # Contains func
