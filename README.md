@@ -85,4 +85,5 @@ You are ready to go! AI Voice Assistant Pro should be operational now.
             ├── main.py                       # It is the starting point of the AI Voice Assistant Pro
             ├── model_training.py             # Contains functions for training the intent recognition model
             ├── system_operations.py          # Contains functions for system operations
-            └── websites.py                   # Contains a list of websites that
+            └── websites.py                   # Contains a list of websites that can be opened by the AI Voice Assistant Pro
+        ├── requirements.txt                  # Lis
