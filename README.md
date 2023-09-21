@@ -87,4 +87,8 @@ You are ready to go! AI Voice Assistant Pro should be operational now.
             ├── system_operations.py          # Contains functions for system operations
             └── websites.py                   # Contains a list of websites that can be opened by the AI Voice Assistant Pro
         ├── requirements.txt                  # Lists the project dependencies
-        └── setup.py                          # Contains code for setting up
+        └── setup.py                          # Contains code for setting up the voice assistant
+
+## License
+
+The code in this repository is licensed under the MIT
