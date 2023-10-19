@@ -91,4 +91,6 @@ You are ready to go! AI Voice Assistant Pro should be operational now.
 
 ## License
 
-The code in this repository is licensed under the MIT License. It signifies that you can freely use, modify, and distribute the code, provided that you include the original copyright and license notice. For more info on LICENSE, please click [here](https://github.com/Bos
+The code in this repository is licensed under the MIT License. It signifies that you can freely use, modify, and distribute the code, provided that you include the original copyright and license notice. For more info on LICENSE, please click [here](https://github.com/BossLu93/AI-Voice-Assistant-Pro/blob/main/LICENSE).
+
+## Thank you for checking out our project!!
